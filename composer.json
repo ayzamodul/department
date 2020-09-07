@@ -1,0 +1,33 @@
+{
+    "name": "ayzamodul/department",
+    "description": "Sube Islemleri",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.8.28"
+    },
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "enespekdas",
+            "email": "38957716+enespekdas@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ayzamodul\\department\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+                "ayzamodul\\department\\providers\\SubeServiceProvider"
+
+            ]
+        }
+  
+        }
+
+}
